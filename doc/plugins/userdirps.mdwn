@@ -1,0 +1,9 @@
+[[!template id=plugin name=tag author="Niall Walsh"]]
+[[!tag type/pagespec]]
+
+This plugin provides the `userdir()` [[ikiwiki/PageSpec]], which can be used
+to match pages that are the users userpage or a [[ikiwiki/SubPage]] of it.
+
+An example use is in combination with [[lockedit]] where setting
+`locked_pages` to `!userdir()` would disable any user editing outside
+of their own userpage.
